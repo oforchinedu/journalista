@@ -1,7 +1,7 @@
 function validate(username, password){
 	
-	var username = document.getElementById("username");
-	var password = document.getElementById("pword");
+	var username = document.getElementById(username);
+	var password = document.getElementById(password);
 	
 	if(username == "admin" && password == "password"){
 		alert("Successful Login");
@@ -10,5 +10,3 @@ function validate(username, password){
 	}
 	else(alert("Login Unsucessful"))
 }
-
-validate("admin", "password")
