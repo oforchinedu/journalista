@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /**
  * Class journalApplication that creates the journal Application.
  * @param {string} username the username of the user.
