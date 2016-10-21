@@ -13,3 +13,10 @@ var journalApplication = function (username, email, password) {
   this.password  = password;
   this.notes = [];
 };
+
+journalApplication.prototype.create = function() {
+  var object = {};
+  object.topic = document.getElementById('topic');
+  object.content = document.getElementById('content');
+  return this.notes.push(object);
+}
